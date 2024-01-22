@@ -437,7 +437,7 @@ justify-content: center;
      color: #482BEB;
      text-align: center;
      font-family:'Montserrat';
-     font-size: 1rem;
+     font-size:1rem;
      padding-right: 2%;
      padding-left: 2%;
 
@@ -446,7 +446,7 @@ justify-content: center;
 
  #textonosotros{
 
-  font-size: 16px;
+  font-size:1rem;
   }
 
 
@@ -477,7 +477,10 @@ img {
   image-orientation: unset;
   transition: transform 0.3s ease-in-out;
   }
+  .nosotros_contenedor h2{
 
+    font-size:1rem;
+  }
 
   @keyframes vibrar {
     0% { transform: translateX(0); }
