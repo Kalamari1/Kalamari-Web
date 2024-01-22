@@ -1,0 +1,449 @@
+  
+ @media screen and (max-width: 600px) {
+
+
+    #Inicio{
+      font-size: 14px;
+      margin-top: 10px;
+    }
+    
+  
+  .landing{
+  align-items: center;
+  display: flex;
+  
+  
+  }
+  .slogan{
+  
+      justify-content: center;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .slogan p{
+     
+      color: #482BEB; 
+      text-align: center;
+      font-size: 1.5em;
+    }
+  
+    .sonido{
+    justify-content: center;
+     align-items:center;
+     flex-wrap: wrap;
+
+  
+    }
+    
+    
+    .sonido p{
+      color: #482BEB;
+      font-size: 1em;
+      font-family:'Montserrat';
+      padding:0;
+      width: 90%;
+      max-width: 100%;
+      overflow-wrap: break-word;
+      text-align: center;
+    
+    }
+    
+    
+    .sonido img{
+      
+    justify-content: center;
+      width: 20%;
+      height: 20%;
+      margin: 0%;
+  
+    }
+
+
+    .categorias{
+      width: 100%;
+      height: 80vh;
+      }
+
+
+
+ 
+            
+
+    .categoria h2{
+      text-align: center;
+      font-size: 0.50em;
+      white-space: nowrap;
+
+      }
+    
+      
+    .descripcion {
+      color: #FFF;
+      text-align: center;
+      font-family:'Montserrat';
+      font-size: 0.5em;
+    
+    }
+    
+   
+
+
+    
+    #botoncategoria {
+      background: #FCFAE9;
+      color: #482BEB;
+      border: none;
+      font-family:'MontserratBold' ;
+      padding: 4px;
+      cursor: pointer;
+      align-items: center;
+      justify-content: center;
+      border-radius: 62px;
+      font-size:0.2em;
+    }
+    
+           
+
+
+
+    
+        .nosotros_contenedor {
+          flex-direction: column; /* Apila los elementos uno encima del otro */
+          align-items: center;
+          
+        }
+      
+        .caro, .Vale, .Cami {
+          margin-bottom: 20px; /* Añade espacio entre los elementos */
+          margin: 0;
+        }
+        
+        /* Ajusta el tamaño de las imágenes para pantallas pequeñas */
+        #iconcaro, #iconvale, #iconcami {
+          max-width: 150px;
+          height: auto;
+        }
+        .nosotros_contenedor {
+          flex-direction: column; /* Apila los elementos uno encima del otro */
+          align-items: center;
+          
+        }
+      
+        .caro, .Vale, .Cami {
+          margin-bottom: 20px; /* Añade espacio entre los elementos */
+          margin: 0;
+        }
+        
+        /* Ajusta el tamaño de las imágenes para pantallas pequeñas */
+        #iconcaro, #iconvale, #iconcami {
+          max-width: 150px;
+          height: auto;
+        }
+      
+      
+  
+        #lineas{
+          display: none;
+        }
+   
+          .contacto {
+            height: auto; /* Ajusta la altura automáticamente para adaptarse al contenido */
+          }
+        
+          #formulario {
+            max-width: 100%; /* Ocupa el ancho completo en pantallas pequeñas */
+         
+          }
+  
+          #formulario label {
+              display: block;
+              text-align: center;
+              
+              
+            }
+        
+            
+
+          
+
+          
+
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+        @media screen and (max-width: 1020px){
+
+
+.logo img{
+    width: 120px;}
+
+
+          .menu nav{
+            justify-content: center;
+            align-items: center;
+              position: fixed;
+              top: 0;
+              right: -900px;
+              width: 250px;
+              height: 100vh;
+              padding: 40px;
+              z-index: 999;
+              transition: all 300ms;
+              /*cambia aqui el color fondo abrir menu*/
+          }
+      
+          .menu ul{
+              flex-direction: column;
+              margin: 0px;
+              padding: 0px;
+            
+          }
+      
+          .menu ul li{
+              margin-top: 30px;
+              text-align: center;
+          }
+      
+          .menu ul li a{
+            color: #FCFAE9;
+            
+          }
+      
+          .menu nav img{
+              display: block;
+              width: 50px;
+          }
+      
+          #back_menu{
+              position: fixed;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100vh;
+              background: rgba(0,0,0,0.5);
+              display: none;
+          }
+      
+          .menu #btn_menu /*cambia aqui el color y el tamaño*/{
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              width: 35px;
+              height: 35px;
+              background: rgba(255, 255, 255, 0);
+              background-repeat: no-repeat;
+              background-size:cover;
+              background-image: url(Img/Barnav\ azul.svg);
+              font-size: 23px;
+              cursor: pointer;
+              transition: all 300ms;
+              margin: 1px auto;
+              margin:40px ;
+          }
+      
+          .menu #btn_menu:hover{
+          background-color: #fcfae904;
+
+          }
+         
+
+         
+#categoriaSubMenu {
+ font-family:'Montserrat' ;
+  top: 30%;
+  align-items: center;
+  background-color: transparent;
+  padding-right: 2vh;
+  display: none;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  transition: all 300ms;
+}
+
+
+
+      
+#categoriaSubMenu li {
+  border: none;
+  color: #FCFAE9;
+  text-align: center;
+  font-weight: 100;
+  align-items: center;
+  padding: 5px 15px;
+  transition: all 300ms;
+}
+
+#categoriaSubMenu ul :hover {
+  transition: 0.3s;
+  border-radius: 62px;
+  color: #FCFAE9;
+}
+
+        
+.menu nav ul li a{
+  color: #FCFAE9;
+  list-style: none;
+  border-radius: 62px;
+  font-weight: 600;
+  text-transform: uppercase;
+  justify-content: center;
+  text-align: center;
+  padding: 6px 1px;
+  margin-left: 24px;
+}
+
+.contenedorcomida{
+padding: 15%;
+}
+  
+.cuadro1 {
+justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+
+
+  }
+
+  .cuadro2 {
+    justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+    
+    
+      }
+    
+      .cuadro3{
+        justify-content: center;
+          flex-wrap: wrap;
+          align-items: center;
+        
+        
+          }
+
+  #Textcuadros h2{
+  margin: 2%;
+    font-weight: 10;
+    font-size: 0.5em;
+  }
+  
+  
+  #Textcuadros p{
+    font-size: 0.5em;
+
+  }
+
+
+  .modelo3d{
+    justify-content: center;
+    align-items: center;
+    min-width: 90%;
+    max-width: 100%;
+  margin: 0%;
+padding: 0%;}
+
+
+
+
+
+    #acocinar p {
+      margin: 3%;
+      }
+
+
+
+.landingcategoria{
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 0;
+  display: inline;
+  margin: 0;
+ 
+}
+
+.descriplan{
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+  text-align: center;
+
+ }
+
+ .descriplan h2{
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 7px;
+ }
+
+
+.sonido1{
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+ .descripcioncard{
+  text-align: center;
+  justify-content: center;
+position: relative;
+align-items: center;
+align-content: center;
+
+
+ }
+
+ .textocard{
+  justify-content:center;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+text-align: center;
+}
+
+
+.textocard img{
+  margin: 2%;
+  max-width: 80%;
+}
+
+
+
+
+  /* Ajusta el tamaño del texto para pantallas pequeñas */
+ h2 {
+    font-size: 0.5em;
+  }
+      
+}
