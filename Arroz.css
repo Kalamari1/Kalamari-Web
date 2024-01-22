@@ -681,74 +681,68 @@ a{
     line-height: 117%; /* 37.44px */
     
     }
-    
-    .textocard img{
-      margin: 2%;
-    
-      
-    }
-    
-    
-    .barra{
+  
+.textocard img{
+  margin: 2%;
+
+  
+}
+
+
+.barra{
+ 
+margin-top: 2%;
+text-align: center;
+border-radius: 26px;
+
+
+}
+
+.barracont{
+  position: relative;
+  justify-content: center;
+  display:flex;
+  padding: 1%;
+
+}
+
+.barcompartir,.barenlace,.barregresar{
+  margin: 2%;
+
+}
+
+
+.iconos{
+  justify-content: center;
+  background-color: #FFF;
+  position: relative;
+
+}
+
+
+.iconos img {
+  position: absolute;
+  width: 35%;
+height: 35%;
+  top:35%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  z-index: 2; /* Asegura que la imagen esté encima del SVG */
+}
      
-    margin-top: 2%;
-    text-align: center;
-    border-radius: 26px;
-    
-    
-    }
-    
-    .barracont{
-      position: relative;
-      justify-content: center;
-      display:flex;
-      padding: 1%;
-      flex-wrap: wrap;
-    }
-    
-    .barracont{
-      position: relative;
-      justify-content: center;
-      display:flex;
-      padding: 1%;
-      flex-wrap: wrap;
-    }
-    
-    .barcompartir,.barenlace,.barregresar{
-      margin: 2%;
-    
-    }
-    
-    
-    .iconos{
-      justify-content: center;
-      background-color: #FFF;
-      position: relative;
-    
-    }
-    
-    
-    .iconos img {
-      position: absolute;
-      width: 30%;
-    height: 80%;
-      top:44%;
-      left: 45%;
-      transform: translate(-50%, -50%);
-      z-index: 2; /* Asegura que la imagen esté encima del SVG */
-    }
-         
-    
-    .iconos svg{
-      z-index: -1;
-      margin: 0%;
-    }
+
+.iconos svg{
+  z-index: -1;
+  margin: 1%;
+
+
+}
   
     .bardescripcion{
       color: #482BEB;
     text-align: center;
     font-family: 'Montserrat';
-    font-size: 15px;
+    font-size: 80%;
     }
    .modelo3d {
           height: 50vh;

@@ -739,6 +739,7 @@ line-height: 117%; /* 37.44px */
 
 }
 
+
 .textocard img{
   margin: 2%;
 
@@ -760,14 +761,7 @@ border-radius: 26px;
   justify-content: center;
   display:flex;
   padding: 1%;
-  flex-wrap: wrap;
-}
-.barracont{
-  position: relative;
-  justify-content: center;
-  display:flex;
-  padding: 1%;
-  flex-wrap: wrap;
+
 }
 
 .barcompartir,.barenlace,.barregresar{
@@ -786,9 +780,9 @@ border-radius: 26px;
 
 .iconos img {
   position: absolute;
-  width: 30%;
-height: 80%;
-  top:44%;
+  width: 35%;
+height: 35%;
+  top:35%;
   left: 45%;
   transform: translate(-50%, -50%);
   z-index: 2; /* Asegura que la imagen esté encima del SVG */
@@ -797,15 +791,16 @@ height: 80%;
 
 .iconos svg{
   z-index: -1;
-  margin: 0%;
-}
+  margin: 1%;
 
+
+}
 
 .bardescripcion{
   color: #FF552E;
 text-align: center;
 font-family: 'Montserrat';
-font-size: 15px;
+font-size: 80%;
 }
 
 
