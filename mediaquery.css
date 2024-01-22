@@ -339,7 +339,6 @@ justify-content: center;
   #Textcuadros h2{
   margin: 2%;
     font-weight: 10;
-    font-size: 0.5em;
   }
   
   
@@ -439,7 +438,7 @@ text-align: center;
 }
 
 
-
+  
 
   /* Ajusta el tamaño del texto para pantallas pequeñas */
  h2 {
