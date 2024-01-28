@@ -201,7 +201,7 @@ function enviarFormulario() {
     var scrollPosition = window.scrollY;
 
     if (scrollPosition > 50) {
-        menu.style.backgroundColor = '#FCFAE9';
+        menu.style.backgroundColor = '#482BEB24';
     } else {
         menu.style.backgroundColor = 'transparent';
     }

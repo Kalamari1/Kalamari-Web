@@ -42,8 +42,9 @@ header{
     height: 80px;
     position: fixed;
     z-index: 2;
-    
+
 }
+
 
 .container__menu{
     max-width: 100%;
@@ -52,6 +53,7 @@ header{
     justify-content: space-between;
     margin: 1vh;
     padding:2vh;
+
 }
 
 .logo{
@@ -84,13 +86,13 @@ list-style: none;}
     justify-content: center;
     font-weight: 400;
     text-decoration: none;
-color: #482BEB;
+color: #FCFAE9;
 }
 
 .menu nav ul li a{
     list-style: none;
     border-radius: 62px;
-    border: 2px solid #482BEB;
+    border: 2px solid #FCFAE9;
     font-weight: 400;
     text-transform: uppercase;
     justify-content: center;
@@ -114,7 +116,7 @@ color: #482BEB;
   padding-left: 2vh;
   display: none;
   position: absolute;
-  background-color: #FCFAE9;
+  background-color: #fcfae956;
   z-index: 1;
   opacity: 0;
  
@@ -139,7 +141,7 @@ color: #482BEB;
 
 #categoriaSubMenu li {
   border: none;
-  color: #482BEB;
+  color: #FCFAE9;
   text-align: center;
   font-weight: 600;
   align-items: center;
@@ -155,6 +157,16 @@ color: #482BEB;
 
 
 
+.video-background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+}
 
 
 
@@ -164,11 +176,11 @@ color: #482BEB;
     display: flex;
     flex-wrap: wrap;
    justify-content: space-evenly;
-   background-image: url(Img/Fondolan.svg);
+   background-image: url(img/gifcomida.mp4);
    background-repeat: no-repeat;
    background-position-y: 40%;
    background-size:cover;
-   color: #482BEB;
+   color: #FCFAE9;
     }
 
 

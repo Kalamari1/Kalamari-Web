@@ -56,6 +56,39 @@ a{
       }
   
   
+      .menu ul a{
+
+        color: #482BEB;
+        }
+        
+        .menu nav ul li a{
+            border: 2px solid #482BEB;
+        }
+    
+    
+        #categoriaSubMenu li {
+          color:#482BEB;
+    
+         }
+      
+      
+      #categoriaSubMenu ul :hover{
+        background-color: #482BEB;
+        color: #FCFAE9; 
+      }  .menu ul a{
+    
+        color: #482BEB;
+        }
+        
+        .menu nav ul li a{
+            border: 2px solid #482BEB;
+        }
+    
+    
+        #categoriaSubMenu li {
+          color:#482BEB;
+    
+         }
 
   
 
