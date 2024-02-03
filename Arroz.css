@@ -808,5 +808,13 @@ height: 35%;
           .menu #btn_menu /*cambia aqui el color y el tamaño*/{
             background-image: url(Img/Barnav\ azul.svg);
           }
-        
+          #categoriaSubMenu li {
+            border: none;
+            color: #FCFAE9;
+            text-align: center;
+            font-weight: 100;
+            align-items: center;
+            padding: 5px 15px;
+            transition: all 300ms;
+          }
         }

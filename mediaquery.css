@@ -291,7 +291,7 @@
 
 #categoriaSubMenu ul :hover {
   transition: 0.3s;
-  border-radius: 62px;
+  border: none;
   color: #FCFAE9;
 }
 
@@ -299,7 +299,7 @@
 .menu nav ul li a{
   color: #FCFAE9;
   list-style: none;
-  border-radius: 62px;
+  border: none;
   font-weight: 600;
   text-transform: uppercase;
   justify-content: center;
